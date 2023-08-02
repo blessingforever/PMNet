@@ -24,9 +24,4 @@ python eval_davis_2016.py
 python eval_davis_2017.py
 ```
 
-### - Terms of Use
-This software is for non-commercial use only.
-The source code is released under the Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) Licence
-(see [this](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) for details)
-
 
