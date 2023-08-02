@@ -9,12 +9,19 @@
 - Pillow-SIMD 7.0.0.post3
 - numpy 1.20.2
 
-##### Pretrained model
-[wget -O STM_weights.pth "https://www.dropbox.com/s/mtfxdr93xc3q55i/STM_weights.pth?dl=1"](https://drive.google.com/file/d/1bOoTk1jfDsCbjZH5jyYheNXea6pO1w1j/view?usp=sharing)
+### - How to Use
+#### Download weights
 
-#### Reference 
+[Google Drive](https://drive.google.com/file/d/1bOoTk1jfDsCbjZH5jyYheNXea6pO1w1j/view?usp=sharing)
+
+#### RUN
+##### DAVIS-2016 validation set (Single-object)
 ``` 
-python eval_DAVIS.py
+python eval_DAVIS_2016.py
+```
+##### DAVIS-2017 validation set (Multi-object)
+``` 
+python eval_DAVIS_2017.py
 ```
 
 ### - Terms of Use
