@@ -17,11 +17,11 @@
 #### RUN
 ##### DAVIS-2016 validation set (Single-object)
 ``` 
-python eval_DAVIS_2016.py
+python eval_davis_2016.py
 ```
 ##### DAVIS-2017 validation set (Multi-object)
 ``` 
-python eval_DAVIS_2017.py
+python eval_davis_2017.py
 ```
 
 ### - Terms of Use
