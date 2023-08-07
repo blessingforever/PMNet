@@ -10,7 +10,7 @@ from PIL import Image
 
 from model.eval_network_PMNet import PMNet 
 from dataset.davis_test_dataset import DAVISTestDataset
-from inference_core_davis import InferenceCore
+from inference_core import InferenceCore
 
 from progressbar import progressbar
 
