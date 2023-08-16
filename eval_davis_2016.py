@@ -100,7 +100,7 @@ for data in progressbar(test_loader, max_value=len(test_loader), redirect_stdout
         process_begin = time.time()
 
         processor = InferenceCore(prop_model, rgb, k, top_k=top_k, mem_every=args.mem_every)
-        processor.interact_CondProto_v3_5_new2_proto_affinity(msk[:,0], 0, rgb.shape[1], name)
+        processor.interact_PMNet(msk[:,0], 0, rgb.shape[1], name)
 
         # Do unpad -> upsample to original size
         out_masks = torch.zeros((processor.t, 1, *rgb.shape[-2:]), dtype=torch.float32, device='cuda')
