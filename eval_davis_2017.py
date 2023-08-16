@@ -57,9 +57,6 @@ prop_model = PMNet().cuda().eval()
 #prop_model = STCN(graph_first=False).cuda().eval()
 prop_model.load_state_dict(prop_saved)
 
-total_process_time = 0
-total_frames = 0
-
 # Start eval
 for data in progressbar(test_loader, max_value=len(test_loader), redirect_stdout=True):
 
